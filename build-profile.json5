@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\zilix\\.ohos\\config\\default_MyApplication_lqXMbGGBPw1RRNADfBejzBTgyVTa8H3WasLzd_0c2Fc=.cer",
+          "storePassword": "00000019A9DAC7D1B24299E126EBE91DCAD9346AB3D4512E436846D3EA0ECD8F73F44F88C96F9FE468",
+          "keyAlias": "debugKey",
+          "keyPassword": "000000192FB2EB99DBF6A250617FE8D5CFEA7AD6F3393B006F5964EF23EBBAEB5302E4DA0D39918E0E",
+          "profile": "C:\\Users\\zilix\\.ohos\\config\\default_MyApplication_lqXMbGGBPw1RRNADfBejzBTgyVTa8H3WasLzd_0c2Fc=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\zilix\\.ohos\\config\\default_MyApplication_lqXMbGGBPw1RRNADfBejzBTgyVTa8H3WasLzd_0c2Fc=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
