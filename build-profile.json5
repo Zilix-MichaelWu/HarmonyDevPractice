@@ -34,8 +34,8 @@
   },
   "modules": [
     {
-      "name": "entry",
-      "srcPath": "./entry",
+      "name": "default",
+      "srcPath": "./products/default",
       "targets": [
         {
           "name": "default",
@@ -44,6 +44,26 @@
           ]
         }
       ]
+    },
+    {
+      "name": "quickstart",
+      "srcPath": "./features/quickstart",
+    },
+    {
+      "name": "map",
+      "srcPath": "./features/map",
+    },
+    {
+      "name": "learning",
+      "srcPath": "./features/learning",
+    },
+    {
+      "name": "uicomponents",
+      "srcPath": "./commons/uicomponents",
+    },
+    {
+      "name": "utils",
+      "srcPath": "./commons/utils",
     }
   ]
 }
